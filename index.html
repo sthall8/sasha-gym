@@ -677,43 +677,44 @@
 const PROGRAMME = [
   {
     key: 'day1',
-    title: 'Hot Girl Hips & Glutes',
-    tag: 'hips & glutes',
+    title: 'Posterior Chain',
+    tag: 'glutes & hamstrings',
     crown: '👑',
     exercises: [
       {
-        name: 'Deadlift', sets: 3, reps: '8',
-        img: 'https://media.giphy.com/media/JhCYHIYq1As0TLUtpN/giphy.gif',
+        name: 'Romanian Deadlift', sets: 3, reps: '10',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/e/e8/Romanian-deadlift-1.png',
         tips: [
-          'Bar over mid-foot, shins almost touching it',
-          'Flat back — chest up, eyes forward',
-          'Brace your core like someone’s about to poke your belly',
-          'Push the floor away with your heels, lift with legs not back',
-          'Keep the bar close to your body the whole way up',
+          'Soft bend in the knees, then hinge at the hips',
+          'Bar stays close to your legs the whole way down',
+          'Lower until you feel a stretch in your hamstrings',
+          'Squeeze glutes to drive back up — don’t round your back',
         ],
       },
       {
-        name: 'Hip Thrust Machine', sets: 4, reps: '10–12',
+        name: 'Hip Thrust Machine', sets: 4, reps: '12 (2-sec hold)',
         img: 'https://media.giphy.com/media/9qEKF8rQyvHhC0iLDB/giphy.gif',
         tips: [
           'Shoulder blades on the pad, feet flat and shoulder-width',
           'Tuck your chin slightly — don’t overarch your back',
           'Drive through your heels and squeeze glutes hard at the top',
-          'Pause at the top for a beat, lower with control',
+          'Hold the top for a FULL 2 seconds — make those glutes burn',
+          'Lower with control, no slamming',
         ],
       },
       {
-        name: 'Kettlebell Swing', sets: 3, reps: '15',
-        img: 'https://media.giphy.com/media/vUBCZJdPyaw8r1bEKW/giphy.gif',
+        name: 'Kickback Machine', sets: 3, reps: '15 each leg',
+        img: 'https://strengthwarehouseusa.com/cdn/shop/products/MuscleDEliteLineMDE-07AGluteStart.jpg?v=1643469319&width=1000',
         tips: [
-          'It’s a hip hinge, not a squat — hips back, knees soft',
-          'Snap your hips forward to launch the bell — let it float',
-          'Arms stay relaxed, glutes and abs do the work',
-          'Bell to chest height (Russian) or overhead (American), your call',
+          'Adjust the pad to sit just above the back of your knee',
+          'Stand tall, hands on the support — slight forward lean',
+          'Push your leg straight back, squeezing the glute hard',
+          'Don’t arch your back — the extension comes from the hip',
+          'Slow controlled return, no kicking the weight back',
         ],
       },
       {
-        name: 'Hip Abduction Machine', sets: 3, reps: '15',
+        name: 'Hip Abduction Machine', sets: 3, reps: '20',
         img: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/Hip_abductor_machine.jpg',
         tips: [
           'Sit tall, back flat against the pad',
@@ -726,33 +727,23 @@ const PROGRAMME = [
   },
   {
     key: 'day2',
-    title: 'Sexy Legs',
-    tag: 'legs',
+    title: 'Glute & Hamstring',
+    tag: 'deadlifts & glutes',
     crown: '🦋',
     exercises: [
       {
-        name: 'Squat', sets: 3, reps: '8',
-        img: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/Woman_doing_squat_workout_in_gym_with_barbell%2C_back_view.jpg',
+        name: 'Trap Bar Deadlift (or Machine Deadlift)', sets: 3, reps: '8',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Trap_bar_%28horizontal%29.jpg',
         tips: [
-          'Feet shoulder-width, toes slightly turned out',
-          'Brace your core, chest proud',
-          'Sit back as if into a chair — knees track over toes',
-          'Hips below knees if your mobility allows',
-          'Drive through full feet to stand up',
+          'Stand INSIDE the trap bar (or grip the machine handles), feet hip-width',
+          'Hinge down, chest up, grip the handles firmly',
+          'Brace your core like someone’s about to poke your belly',
+          'Drive through your heels, stand all the way tall',
+          'Friendlier on the lower back than a barbell — perfect intro to deadlifting',
         ],
       },
       {
-        name: 'Leg Extension', sets: 3, reps: '12',
-        img: 'https://upload.wikimedia.org/wikipedia/commons/3/36/LegExtensionMachineExercise.JPG',
-        tips: [
-          'Adjust the seat so knees align with the pivot point',
-          'Squeeze quads hard at the top for a full second',
-          'Lower slowly — don’t let the stack crash down',
-          'Keep your back pressed into the pad',
-        ],
-      },
-      {
-        name: 'Leg Curl', sets: 3, reps: '12',
+        name: 'Leg Curl Machine', sets: 3, reps: '12',
         img: 'https://upload.wikimedia.org/wikipedia/commons/c/c6/LyingLegCurlMachineExercise.JPG',
         tips: [
           'Pad sits just above your heels, not on your calves',
@@ -762,71 +753,75 @@ const PROGRAMME = [
         ],
       },
       {
-        name: 'Lunges', sets: 3, reps: '8 each leg',
-        img: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Airman_performing_lunge.jpg',
+        name: 'Single-Leg Hip Thrust', sets: 3, reps: '10 each leg',
+        img: 'https://media.giphy.com/media/ehs1cZQCzD3uqgqwX8/giphy.gif',
         tips: [
-          'Long step out — front knee tracks over toe (not past)',
-          'Back knee toward the floor, not slammed into it',
-          'Torso upright, core engaged the whole time',
-          'Push through the front heel to come back up',
+          'Set up like the regular hip thrust — shoulder blades on the bench',
+          'Extend the non-working leg straight out in front',
+          'Drive through the heel of the working leg only',
+          'Squeeze that one glute HARD at the top, control the way down',
+          'Go light — single-leg is much harder than it looks',
+        ],
+      },
+      {
+        name: 'Hip Abduction Machine', sets: 3, reps: '20',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/Hip_abductor_machine.jpg',
+        tips: [
+          'Sit tall, back flat against the pad',
+          'Push knees outward slowly, no momentum',
+          'Squeeze glutes hard at the widest point',
+          'Lower with control — no slamming the stack',
         ],
       },
     ],
   },
   {
     key: 'day3',
-    title: 'Balanced Full Body',
-    tag: 'full body',
+    title: 'Glute Isolation & Shape',
+    tag: 'isolation',
     crown: '🌸',
     exercises: [
       {
-        name: 'Leg Press', sets: 3, reps: '10',
+        name: 'Leg Press (feet high & wide)', sets: 3, reps: '12',
         img: 'https://upload.wikimedia.org/wikipedia/commons/5/57/Leg_press_%28cropped%2C_flipped%29.jpg',
         tips: [
-          'Feet shoulder-width on the plate, higher placement = more glutes',
+          'Feet HIGH on the plate (closer to the top) and WIDE (wider than shoulders)',
+          'This placement shifts work onto glutes & hamstrings, off the quads',
           'Lower until thighs are around 90°',
           'Don’t lock your knees at the top',
           'Push through your full foot, not just your toes',
         ],
       },
       {
-        name: 'RDL', sets: 3, reps: '10',
-        img: 'https://upload.wikimedia.org/wikipedia/commons/e/e8/Romanian-deadlift-1.png',
+        name: 'Reverse Lunge', sets: 3, reps: '12 each leg',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Airman_performing_lunge.jpg',
         tips: [
-          'Soft bend in the knees, then hinge at the hips',
-          'Bar stays close to your legs the whole way down',
-          'Lower until you feel a stretch in your hamstrings',
-          'Squeeze glutes to drive back up — don’t round your back',
+          'Stand tall, step BACKWARD into the lunge',
+          'Front knee tracks over your toe (not past it)',
+          'Back knee drops toward the floor, not slammed into it',
+          'Push through the front heel to stand back up',
+          'Reverse lunge = friendlier on the knees than walking lunge',
         ],
       },
       {
-        name: 'Seated Cable Row', sets: 3, reps: '10',
-        img: 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Cable-seated-rows-1.png',
+        name: 'Hip Abduction Machine', sets: 3, reps: '20',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/Hip_abductor_machine.jpg',
         tips: [
-          'Sit tall with a slight backward lean — chest up',
-          'Pull elbows to your sides, not flared wide',
-          'Squeeze shoulder blades together at the end',
-          'Slow controlled return — don’t get yanked forward',
+          'Sit tall, back flat against the pad',
+          'Push knees outward slowly, no momentum',
+          'Squeeze glutes hard at the widest point',
+          'Lower with control — no slamming the stack',
         ],
       },
       {
-        name: 'Shoulder Press or Incline Bench', sets: 3, reps: '10',
-        img: 'https://media.giphy.com/media/Svjs5acK9F9CSOrjgr/giphy.gif',
+        name: 'Glute Kickback Machine', sets: 3, reps: '15 each leg',
+        img: 'https://strengthwarehouseusa.com/cdn/shop/products/MuscleDEliteLineMDE-07AGluteStart.jpg?v=1643469319&width=1000',
         tips: [
-          'Brace your core and squeeze glutes — full-body tension',
-          'Elbows around 45–75°, not flared straight out',
-          'Press up and slightly back over your head (overhead)',
-          'Full range — lower all the way down with control',
-        ],
-      },
-      {
-        name: 'Abs', sets: 1, reps: 'to finish',
-        img: 'https://media.giphy.com/media/BWRHz2mlwxTIHMlNS6/giphy.gif',
-        tips: [
-          'For planks: forearms flat, elbows under shoulders',
-          'Body in one straight line — no sagging hips, no piking',
-          'Squeeze glutes and brace abs the whole time',
-          'Breathe normally — don’t hold your breath',
+          'Adjust the pad to sit just above the back of your knee',
+          'Stand tall, hands on the support — slight forward lean',
+          'Push your leg straight back, squeezing the glute hard',
+          'Don’t arch your back — extension comes from the hip',
+          'Slow controlled return, no kicking the weight back',
         ],
       },
     ],
@@ -936,16 +931,20 @@ function renderExercises() {
     const draftEx = state.draft.exercises[idx];
 
     const photo = el('div', { class: 'photo' });
-    const img = el('img', {
-      attrs: {
-        src: ex.img,
-        alt: ex.name + ' reference',
-        loading: 'lazy',
-        referrerpolicy: 'no-referrer',
-      }
-    });
-    img.addEventListener('error', () => { photo.classList.add('broken'); img.remove(); });
-    photo.appendChild(img);
+    if (ex.img) {
+      const img = el('img', {
+        attrs: {
+          src: ex.img,
+          alt: ex.name + ' reference',
+          loading: 'lazy',
+          referrerpolicy: 'no-referrer',
+        }
+      });
+      img.addEventListener('error', () => { photo.classList.add('broken'); img.remove(); });
+      photo.appendChild(img);
+    } else {
+      photo.classList.add('broken');
+    }
 
     const setsWrap = el('div', { class: 'sets' });
     for (let s = 0; s < ex.sets; s++) {
